@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.casa {
+    position: relative;
+    border: solid black 3px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+}
+
+.tejado {
+    position: absolute;
+    padding: 5px;
+    border: solid black 3px;
+    background-color: red;
+    height: 40px;
+    width: 280px;
+    margin-top: -272px;
+}
+
+.puerta {
+    padding: 5px;
+    position: absolute;
+    border: solid black 3px;
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.ventana1 {
+    position: absolute;
+    padding: 5px;
+    border: solid black 3px;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    margin-right: -160px;
+    margin-top: 70px;
+}
+
+.ventana2 {
+    position: absolute;
+    padding: 5px;
+    border: solid black 3px;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    margin-left:-160px;
+    margin-top: -30px;
+}
